@@ -10,7 +10,7 @@ jobs:
     - uses: actions/setup-python@v3
     - name: first 
       run: |
-        pip3 install -r requirements.txt;
+        pip3 install -r requirements.txt
     - name: server
       run: |
-        python3 server.py;
+        python3 server.py > log.txt 2>&1 &
