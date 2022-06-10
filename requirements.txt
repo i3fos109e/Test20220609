@@ -2,4 +2,3 @@ flask
 pytest
 Flask-Testing
 requests
-requests2
