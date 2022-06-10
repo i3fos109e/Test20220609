@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: i3fos109e/zoe_test:latest
+          tags: ${{secrets.DOCKERHUB_USERNAME}}/zoe_test:latest
